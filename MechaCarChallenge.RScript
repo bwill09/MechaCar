@@ -1,0 +1,4 @@
+demo_table <- read.csv(file='MechaCar_mpg.csv',check.names=F,stringsAsFactors = F)
+lm(qsec ~ hp,mtcars) #create linear model
+lm(qsec ~ mpg + disp + drat + wt + hp,data=mtcars) #generate multiple linear regression model
+summary(lm(qsec ~ mpg + disp + drat + wt + hp,data=mtcars)) #generate summary statistics
