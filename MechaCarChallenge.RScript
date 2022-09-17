@@ -1,4 +1,18 @@
 demo_table <- read.csv(file='MechaCar_mpg.csv',check.names=F,stringsAsFactors = F)
-lm(qsec ~ hp,mtcars) #create linear model
-lm(qsec ~ mpg + disp + drat + wt + hp,data=mtcars) #generate multiple linear regression model
-summary(lm(qsec ~ mpg + disp + drat + wt + hp,data=mtcars)) #generate summary statistics
+lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD, data=mecha_mpg)
+summary(lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD, data=mecha_mpg))
+demo_table <- read.csv(file='Suspension_Coil.csv',check.names=F,stringsAsFactors = F)
+total_summarize <- demo_table %>% summarize(Mean=mean(PSI), Median=median(PSI), Variance=var(PSI), SD=sd(PSI), .groups = 'keep') #create summary table
+
+#lot_summary
+lot_summarize <- demo_table %>% group_by (Manufacturing_Lot) %>% summarize(Mean=mean(PSI), Median=median(PSI), Variance=var(PSI), SD=sd(PSI), .groups = 'keep') 
+
+t.test(demo_table$PSI,mu=1500)
+
+lot1 <- subset(demo_table, Manufacturing_Lot=="Lot1")
+lot2 <- subset(demo_table, Manufacturing_Lot=="Lot2")
+lot3 <- subset(demo_table, Manufacturing_Lot=="Lot3")
+
+t.test(lot1$PSI,mu=1500)
+t.test(lot2$PSI,mu=1500)
+t.test(lot3$PSI,mu=1500)
