@@ -32,11 +32,11 @@ Result on D1:
 
 ### Summary:
 
-*		The p-Value of this model, P-Value: 5.35e-11, lower that .05%. This case indicates enough reason to reject our null hypothesis. Furtherance, this suggests that the slope of this linear model is not zero. 
+*	The p-Value of this model, P-Value: 5.35e-11, lower that .05%. This case indicates enough reason to reject our null hypothesis. Furtherance, this suggests that the slope of this linear model is not zero. 
 
-*		The linear model has an r-squared value of 0.7149 which could sum up 71% of all mpg assumption by this model.
+*	The linear model has an r-squared value of 0.7149 which could sum up 71% of all mpg assumption by this model.
 
-*		Vehicle length, and vehicle ground clearance can most likely produce non-random amounts of variance to the model. In other words, the vehicle length and vehicle ground clearance comprise of substantial hit on miles per gallon on the MechaCar prototype. Oppositely, the vehicle weight, spoiler angle, and All Wheel Drive (AWD) have p-Values that indicates arbitrary of variance with dataset
+*	Vehicle length, and vehicle ground clearance can most likely produce non-random amounts of variance to the model. In other words, the vehicle length and vehicle ground clearance comprise of substantial hit on miles per gallon on the MechaCar prototype. Oppositely, the vehicle weight, spoiler angle, and All Wheel Drive (AWD) have p-Values that indicates arbitrary of variance with dataset
 
 Summary Statistics (Suspension Coils)
 
