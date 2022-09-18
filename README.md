@@ -77,28 +77,28 @@ Lot3
 Study Design: MechaCar vs other competitors 
 
 A study gathering data on MechaCar and its comparable models across multiple  manufacturers over 3 years.
-*		What are comparable models for competitors 
-*		Which cars will MechaCar be comparing with head-to-head? which cars will be included in the study?
-*		Which elements would determine the selling price?
+*	What are comparable models for competitors 
+*	Which cars will MechaCar be comparing with head-to-head? which cars will be included in the study?
+*	Which elements would determine the selling price?
 
 ### Metrics
 
 Collecting data for comparable models across all major manufacturers for past 3 years for the following metrics:
-*		Safety Feature Rating: Independent Variable
-*		Current Price (Selling): Dependent Variable
-*		Drive Package : Independent Variable
-*		Engine (Electric, Hybrid, Gasoline): Independent Variable
-*		Resale Value: Independent Variable
-*		Average Annual Cost of ownership (Maintenance): Independent Variable
-*		MPG (fuel efficiency): Independent Variable
+*	Safety Feature Rating: Independent Variable
+*	Current Price (Selling): Dependent Variable
+*	Drive Package : Independent Variable
+*	Engine (Electric, Hybrid, Gasoline): Independent Variable
+*	Resale Value: Independent Variable
+*	Average Annual Cost of ownership (Maintenance): Independent Variable
+*	MPG (fuel efficiency): Independent Variable
 
 ### Hypothesis: Null and Alternative
 
 After looking at which factors are vital for the MechaCar's type:
 
-*		Null Hypothesis (Ho): MechaCar is priced correctly based on its performance of key factors for its type.
-*		Alternative Hypothesis (Ha): MechaCar is NOT priced correctly based on performance of key factors for its genre.
+*	Null Hypothesis (Ho): MechaCar is priced correctly based on its performance of key factors for its type.
+*	Alternative Hypothesis (Ha): MechaCar is NOT priced correctly based on performance of key factors for its genre.
 
 ### Statistical Tests
 
-A multiple linear regression would be used to identify elements that have the best predictability with the current selling price, which has the most influence on price
+* A multiple linear regression would be used to identify elements that have the best predictability with the current selling price, which has the most influence on price
