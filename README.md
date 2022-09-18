@@ -16,9 +16,9 @@ Jeremy begun a role and few weeks later senior management spoke to him about a s
 
 ### Resources
 
-•	Data Source: MechaCar_mpg.csv and Suspension_Coil.csv
-•	Data Tools: tidyverse, dplyr, ggplot2 and MechaCarChallenge.RScript.
-•	Software: RStudio and R
+*	Data Source: MechaCar_mpg.csv and Suspension_Coil.csv
+*	Data Tools: tidyverse, dplyr, ggplot2 and MechaCarChallenge.RScript
+*	Software: RStudio and R
 
 ### Deliverable 1
 
@@ -32,10 +32,11 @@ Result on D1:
 
 ### Summary:
 
-•	The p-Value of this model, P-Value: 5.35e-11, lower that .05%. This case indicates enough reason to reject our null hypothesis. Furtherance, this suggests that the slope of this linear model is not zero. 
-•	The linear model has an r-squared value of 0.7149 which could sum up 71% of all mpg assumption by this model.
+*		The p-Value of this model, P-Value: 5.35e-11, lower that .05%. This case indicates enough reason to reject our null hypothesis. Furtherance, this suggests that the slope of this linear model is not zero. 
 
-•	Vehicle length, and vehicle ground clearance can most likely produce non-random amounts of variance to the model. In other words, the vehicle length and vehicle ground clearance comprise of substantial hit on miles per gallon on the MechaCar prototype. Oppositely, the vehicle weight, spoiler angle, and All Wheel Drive (AWD) have p-Values that indicates arbitrary of variance with dataset
+*		The linear model has an r-squared value of 0.7149 which could sum up 71% of all mpg assumption by this model.
+
+*		Vehicle length, and vehicle ground clearance can most likely produce non-random amounts of variance to the model. In other words, the vehicle length and vehicle ground clearance comprise of substantial hit on miles per gallon on the MechaCar prototype. Oppositely, the vehicle weight, spoiler angle, and All Wheel Drive (AWD) have p-Values that indicates arbitrary of variance with dataset
 
 Summary Statistics (Suspension Coils)
 
@@ -53,7 +54,7 @@ Considering the whole population of the production lot, the variance is within t
 
 Lot 1 and 2 within the 100 PSI variance requirement, with variance of 0.97 and 7.46. Lot 3 has bigger variance in performance and steadiness, with a variance of 170.28. Lot 3 excessively causing the variance at all the lot level
 
-T-tests on Suspension Coils 
+### T-tests on Suspension Coils 
 
 <img width="769" alt="t-test" src="https://user-images.githubusercontent.com/106555873/190924371-8dd6f012-f2c8-4d26-aef9-b4fa60f5d2cd.png">
 
@@ -63,7 +64,10 @@ T-tests on Suspension Coils
 
 
 Lot1
+
 <img width="592" alt="Lot2" src="https://user-images.githubusercontent.com/106555873/190924458-47214680-52db-4cbc-a683-9b3264bcd21c.png">
+
+
 <img width="593" alt="Lot 3" src="https://user-images.githubusercontent.com/106555873/190924461-22ad8984-f28d-41c6-8f7d-c45197bc8141.png">
 
 
@@ -72,25 +76,28 @@ Lot1
 Study Design: MechaCar vs other competitors 
 
 A study gathering data on MechaCar and its comparable models across multiple  manufacturers over 3 years.
-•	What are comparable models for competitors 
-•	Which cars will MechaCar be comparing with head-to-head? which cars will be included in the study?
-•	Which elements would determine the selling price?
+*		What are comparable models for competitors 
+*		Which cars will MechaCar be comparing with head-to-head? which cars will be included in the study?
+*		Which elements would determine the selling price?
 
-Metrics
+### Metrics
 
 Collecting data for comparable models across all major manufacturers for past 3 years for the following metrics:
-•	Safety Feature Rating: Independent Variable
-•	Current Price (Selling): Dependent Variable
-•	Drive Package : Independent Variable
-•	Engine (Electric, Hybrid, Gasoline): Independent Variable
-•	Resale Value: Independent Variable
-•	Average Annual Cost of ownership (Maintenance): Independent Variable
-•	MPG (fuel efficiency): Independent Variable
+*		Safety Feature Rating: Independent Variable
+*		Current Price (Selling): Dependent Variable
+*		Drive Package : Independent Variable
+*		Engine (Electric, Hybrid, Gasoline): Independent Variable
+*		Resale Value: Independent Variable
+*		Average Annual Cost of ownership (Maintenance): Independent Variable
+*		MPG (fuel efficiency): Independent Variable
 
-Hypothesis: Null and Alternative
+### Hypothesis: Null and Alternative
 
-After looking at which factors are vital for the MechaCar's genre:
-•	Null Hypothesis (Ho): MechaCar is priced correctly based on its performance of key factors for its type.
-•	Alternative Hypothesis (Ha): MechaCar is NOT priced correctly based on performance of key factors for its genre.
-Statistical Tests
+After looking at which factors are vital for the MechaCar's type:
+
+*		Null Hypothesis (Ho): MechaCar is priced correctly based on its performance of key factors for its type.
+*		Alternative Hypothesis (Ha): MechaCar is NOT priced correctly based on performance of key factors for its genre.
+
+### Statistical Tests
+
 A multiple linear regression would be used to identify elements that have the best predictability with the current selling price, which has the most influence on price
