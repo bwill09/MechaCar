@@ -63,10 +63,11 @@ Lot 1 and 2 within the 100 PSI variance requirement, with variance of 0.97 and 7
 3.	Lot 3, exhibits a different scenario. The sample mean is 1496.14 and the p-Value is 0.04, which is lower than the common significance level of 0.05. All indicating to reject the null hypothesis that this sample mean and the presumed population mean are not statistically different.
 
 
-Lot1
+Lot2
 
 <img width="592" alt="Lot2" src="https://user-images.githubusercontent.com/106555873/190924458-47214680-52db-4cbc-a683-9b3264bcd21c.png">
 
+Lot3 
 
 <img width="593" alt="Lot 3" src="https://user-images.githubusercontent.com/106555873/190924461-22ad8984-f28d-41c6-8f7d-c45197bc8141.png">
 
